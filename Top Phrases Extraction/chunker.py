@@ -2,7 +2,7 @@ import nltk
 nltk.download('stopwords')
 from tkinter import *
 import time
-from nltk.corpus import stopwords
+from nltk.corpus import stopwords 
 import re
 
 def transform(sentence):
@@ -36,7 +36,7 @@ def extractPhrase(corpus):
     # Removing the noise
 
     corpus =[' '.join([word for word in sent.split() if regex.search(word)]) for sent in corpus]
-    '''
+    ''' 
 
     #corpus = input('Please Enter the text: ')
     corpus = corpus.split('.')
