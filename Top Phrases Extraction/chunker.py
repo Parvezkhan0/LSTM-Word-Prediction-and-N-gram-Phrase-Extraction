@@ -3,7 +3,7 @@ nltk.download('stopwords')
 from tkinter import *
 import time
 from nltk.corpus import stopwords 
-import re
+import re 
 
 def transform(sentence):
     sentence = sentence.split()
